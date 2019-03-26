@@ -78,7 +78,13 @@ theme: hexo-theme-next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:gcluo/gcluo.github.io.git
-  branch: master
-  message: init
+-  type: git
+   repo: git@github.com:gcluo/gcluo.github.io.git
+   branch: master
+   message: init
+
+-  type: rsync
+   host: 47.100.14.255
+   user: luogc
+   port: 22
+   root: /blog
