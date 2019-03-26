@@ -87,4 +87,4 @@ deploy:
    host: 47.100.14.255
    user: luogc
    port: 22
-   root: /blog
+   root: /home/luogc/blog
